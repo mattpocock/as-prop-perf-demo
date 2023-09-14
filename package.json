@@ -1,0 +1,17 @@
+{
+  "name": "as-prop-perf-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "trace": "tsc --generateTrace ./trace && open ./trace && npx @typescript/analyze-trace trace"
+  },
+  "keywords": [],
+  "author": "Matt Pocock",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.6.0",
+    "typescript": "^5.2.2",
+    "@types/react": "^18.2.21"
+  }
+}
